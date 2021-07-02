@@ -15,7 +15,7 @@ public interface PersonDao {
     根据ID查询
     {id} 要查询人员的 id
      */
-    Person getPersonByID(int id);
+    Person getPersonById(int id);
 
     /*
     删除

@@ -21,8 +21,8 @@ public class PersonService {
         return personDao.getAll();
     }
 
-    public Person getPersonByID(int id) {
-        return personDao.getPersonByID(id);
+    public Person getPersonById(int id) {
+        return personDao.getPersonById(id);
     }
 
     public void delete(int id) {
